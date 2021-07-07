@@ -10,6 +10,7 @@ I can also use github, at the moment 19 repositories have been created.\
 * Time managment
 * Fast-learning
 * Team work
+* and any more
 ### Professional skills: ###
 * HTML5
 * CSS3
