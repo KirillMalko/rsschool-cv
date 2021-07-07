@@ -207,7 +207,24 @@ a:hover {
     display: flex;
     margin-left: 40%;
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 .icon:hover {
     transform: scale(1.1);
 }
@@ -684,7 +701,37 @@ hr {
     display: table;
     clear: both;
 }
+/*skill-box*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Rubik One', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    background: linear-gradient(60deg, #0B2349 15%, #a655bb 76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    margin: 10px 20px;
+}
 
 
+.dropdown-content {
+    display: none;
+    position: relative;
+    background: linear-gradient(0turn, #0B2349 15%, #a655bb 76%);
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(210, 27, 27, 0.2);
+    z-index: 1;
+    -webkit-text-fill-color: #1fcd71;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 
+.cont{
+    list-style: none;
+}
