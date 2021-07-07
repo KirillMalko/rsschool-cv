@@ -14,7 +14,7 @@ I can also use github, at the moment 19 repositories have been created.\
 ### Professional skills: ###
 * HTML5
 * CSS3
-* GIT
+* GIT(GITHUB)
 * JS 
 \
 **further more**
