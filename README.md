@@ -17,3 +17,4 @@
 * ![alt text](screen1.png "First")
 * ![alt text](screen2.png "Second")
 # Итого: 100 баллов
+
